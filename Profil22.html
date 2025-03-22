@@ -3,24 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Utilisateur</title>
+    <title>Profil</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #000000;
             color: #e0e0e0;
+            background-color: #1f1f1f;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
         }
 
         .profile-container {
             background-color: #1f1f1f;
             border-radius: 15px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
             width: 450px;
             padding: 30px;
             box-sizing: border-box;
@@ -102,31 +100,35 @@
         .close-button:hover {
             background-color: #218838;
         }
+        .vert{
+            color: #218838;
+        }
     </style>
 </head>
 <body>
     <div class="profile-container">
         <div class="profile-header">
-            <img src="file:///C:/Users/Sergio/Downloads/WhatsApp%20Image%202024-08-26%20at%2019.18.03.jpeg" alt="Profil Utilisateur">
-            <h1>Bron Daniel</h1>
-            <p>jhfdjskh@example.com</p>
+            <img src="img/profil.jpeg" alt="Profil Utilisateur">
+            <h1>ALOCO KOUAME GUY-GERARD</h1>
         </div>
         <div class="profile-info">
-            <h2>Informations de Profil</h2>
+            <h2>Informations du Profil</h2>
             <div class="info-item">
-                <span>Nom :</span> Bron
+                <span>Nom :</span> ALOCO
             </div>
             <div class="info-item">
-                <span>Prénom :</span> Daniel
+                <span>Prénom :</span> KOUAME GUY-GERARD
+            </div>
+            <div class="info-itm">
+                <span >Adresse Mail :</span> <P class="vert"> alocogerard@gmail.com</P>
             </div>
             <div class="info-item">
-                <span>Adresse Mail :</span> yyjjjjjjjjjjt@example.com
-            </div>
-            <div class="info-item">
-                <span>Lien Personnel de Travail :</span> <a href="https://example.com" target="_blank">https://example.com</a>
             </div>
         </div>
-        <button class="close-button" onclick="window.location.href='file:///C:/Users/Sergio/Documents/cliquable.html';">Retour</button>
+        <a href="cliquable.html" class="close-button">Retour à l'accueil</a>
+
+
     </div>
 </body>
 </html>
+
